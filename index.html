@@ -1,9 +1,229 @@
-<html><head><meta charset="UTF-8" class="current-zkNMStkjGSAo"/><link rel="stylesheet" href="styles.css" class="sm-smZWCRA"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" class="huge-lihZKLNGrTl"/><meta name="referrer" content="no-referrer" class="preview-wRsMyPBO"/><style> @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); html,body{overflow-x: hidden;} *{margin:0;padding:0;} *::-webkit-scrollbar { background-color: #b96643; border-radius: 46px; } *::-webkit-scrollbar-thumb { background-color: #a4c9a5; border-radius: 46px; border: 3px solid #b96643; } a{text-decoration:none} p,li{text-indent: calc(30vw/var(--resizer)*100)} ol{padding-left: calc(30vw/var(--resizer)*100)} h2{text-align: center;} input{outline: none;} #close:checked ~ section {display: none !important;} input::placeholder {color: inherit;} :root { --resizer: 1440; } @media screen and (max-width:414px) { :root { --resizer: 350; } } </style><title>acadiva.blog</title><!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>EduLearn — Loading</title>
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f5f7fb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.card{
+    width:100%;
+    max-width:360px;
+    background:#fff;
+    padding:35px 25px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card h2{
+    font-size:28px;
+    margin-bottom:12px;
+    color:#111827;
+}
+
+.card p{
+    font-size:15px;
+    color:#6b7280;
+    line-height:1.5;
+    margin-bottom:25px;
+}
+
+.btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:#2563eb;
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    opacity:0.9;
+}
+
+@media(max-width:480px){
+
+    .card{
+        padding:30px 20px;
+        border-radius:14px;
+    }
+
+    .card h2{
+        font-size:24px;
+    }
+
+    .card p{
+        font-size:14px;
+    }
+
+    .btn{
+        padding:13px;
+        font-size:15px;
+    }
+}
+
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; font-family: system-ui, -apple-system, sans-serif; overflow: hidden; }
+
+  /* Bot-wall / "checking your browser" screen */
+  #gate {
+    position: fixed; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    background: #0f172a; color: #e2e8f0;
+    text-align: center; gap: 18px; z-index: 10; padding: 24px;
+    /* allow scroll gesture to register even though page itself doesn't scroll */
+    touch-action: pan-y;
+  }
+  .spinner {
+    width: 42px; height: 42px; border-radius: 50%;
+    border: 4px solid #334155; border-top-color: #38bdf8;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  #gate h1 { font-size: 19px; font-weight: 600; }
+  #gate p { color: #94a3b8; font-size: 14px; max-width: 300px; line-height: 1.5; }
+
+  /* The iframe that holds the real content (URL never changes) */
+  #frame {
+    position: fixed; inset: 0;
+    width: 100%; height: 100%;
+    border: 0; display: none; z-index: 5;
+  }
+
+  /* Cookie consent popup */
+  #cookie {
+    position: fixed; left: 12px; right: 12px; bottom: 12px;
+    background: #1e293b; color: #e2e8f0;
+    padding: 16px; border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.4);
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+    z-index: 20; font-size: 14px;
+  }
+  #cookie span { flex: 1 1 100%; }
+  #cookie button {
+    flex: 1; padding: 11px 14px; border: 0; border-radius: 8px;
+    font-size: 14px; font-weight: 600; cursor: pointer;
+  }
+  .accept { background: #38bdf8; color: #04263a; }
+  .reject { background: transparent; color: #94a3b8; border: 1px solid #475569 !important; }
+</style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2DMKRPGVF0"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-0LY0HY7L01');
-</script></head><body class="desc-cWSdgLYFrxcFEyuf"><main class="btn-ZKfZQAYAQ"><div class="widget-IkXlxwOfWEVDnfo"><div class="holder-qCfahaOebpfYC"><div class="sidebar-mcoyxHzLu"><h3 class="wrapper-shfwlTofQBBz">acadiva.blog</h3><span class="heading-GUzDpvHjhCmEe">Academic Training Skills This article explores how Research libraries support Writing lifelong learning through Curriculum Knowledge diverse resources, Learning community Teaching engagement, Innovation Study and Literacy innovative Examination programs. Certification Reading</span></div><div class="lg-QrshMUEIuZoeU"><a href="themelist0.html" class="pic-GJlzLxq"><span class="content-keAbIhqafkpRPhDe">Show all</span></a><a href="index.php" class="large-uTYvwBZrXlrtGJd"><span class="sidebar-RBeGaGOUzW">Tell friends</span></a></div></div><div class="picture-GmCYZyPm"><div class="icon-mgHPdJDAHgitDyu"><img src="./img/2e9675e04ef8d42b11cd36e010e19985dc5b8a92.jpg" class="tagline-sWWmWSGpWbeh"/></div></div></div><div class="column-mdSXFdnFT"><div class="tagline-CpJDoYkblzIdKhPa"><div class="desc-BCfkLH"><h3 class="holder-xUmkjEJbKRJurx">Panorama</h3></div></div><div class="medium-yrUYENcn"><div class="narrow-fQOICC"><img src="./img/bed78e186663db0079a1bc87d5724a3f74fec36f.jpg" class="small-gdPnUzTaIir"/><img src="./img/fcee07faea0f4a7cadf796ef99abcb789b9bd028.jpg" class="wide-lulcRLYapYDVc"/><img src="./img/d82bccad696c539a51963183e067b8c889852912.jpg" class="grid-wxvkPSCDU"/><img src="./img/7ead2813094764472e797b8f039f12841b5f0eca.jpg" class="active-MaZNkt"/><img src="./img/0a7418756027da5f76f9d42f6848cb4ceec66581.jpg" class="container-eskETMtQwEpW"/><img src="./img/ada8e869c7c7d0b7d01d8f4ad47d94c55c74b195.jpg" class="holder-RJsDNYrMyuJbNj"/><img src="./img/e719e547baad94201fe206bdd319754ec342a8c8.jpg" class="xs-wotNSqFA"/><img src="./img/d21a60e60abaa6f23baa1fbfdfa05c5f87c6f7ab.jpg" class="subtitle-ODJITaCtsOXaGRQ"/><img src="./img/92570def3591d93efd8787c7f212276efeca5f40.jpg" class="picture-iOajvGOuzpt"/></div></div></div><div style="display: flex; position: relative; justify-content: center; align-items: center; min-width: 80%; gap: calc(29vw/var(--resizer)*100); padding: calc(50vw/var(--resizer)*100) 10% calc(50vw/var(--resizer)*100) 10%; flex-direction: column; background-color: #fcfff6; background-image: url(&quot;data:image/svg+xml,%3Csvg%20id%3D'squares-and-plus-2_37928'%20width%3D'100%25'%20height%3D'1000px'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cdefs%3E%3Cstyle%3E%0A%20%20%20%20%40keyframes%20float1%20%7B%0A%20%20%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%2050%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(-33px%2C%200)%20rotate(164deg)%20scale(0.40719771898017565)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20.float1%20%7B%0A%20%20%20%20%20%20animation%3A%20float1%204s%20infinite%3B%0A%20%20%20%20%7D%0A%20%20%20%20%40keyframes%20float2%20%7B%0A%20%20%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%2050%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(22px%2C%20-27px)%20rotate(148deg)%20scale(1.5779719437694222)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20.float2%20%7B%0A%20%20%20%20%20%20animation%3A%20float2%202s%20infinite%3B%0A%20%20%20%20%7D%0A%20%20%20%20%40keyframes%20float3%20%7B%0A%20%20%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%2050%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%2051px)%20rotate(166deg)%20scale(1.5552608349530255)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20.float3%20%7B%0A%20%20%20%20%20%20animation%3A%20float3%207s%20infinite%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%3Cpattern%20id%3D'88462'%20patternUnits%3D'userSpaceOnUse'%20width%3D'60'%20height%3D'60'%20patternTransform%3D'scale(3)%20rotate(163)'%3E%3Crect%20x%3D'0'%20y%3D'0'%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'%23fcfff6'%2F%3E%3Cpath%20d%3D'M15%200l-3.75%203.75v7.5h-7.5L0%2015l3.75%203.75h7.5v7.5L15%2030l3.75-3.75v-7.5h7.5L30%2015l-3.75-3.75h-7.5v-7.5zm3.75%203.75l7.5%207.5v-7.5zm7.5%2015l-7.5%207.5h7.5zm-15%207.5l-7.5-7.5v7.5zm-7.5-15l7.5-7.5h-7.5zM45%2030l-3.75%203.75v7.5h-7.5L30%2045l3.75%203.75h7.5v7.5L45%2060l3.75-3.75v-7.5h7.5L60%2045l-3.75-3.75h-7.5v-7.5zm3.75%203.75l7.5%207.5v-7.5zm7.5%2015l-7.5%207.5h7.5zm-15%207.5l-7.5-7.5v7.5zm-7.5-15l7.5-7.5h-7.5z'%20class%3D'float2'%20style%3D'opacity%3A%20.15'%20%20stroke-width%3D'1'%20stroke%3D'none'%20fill%3D'%23a4c9a5'%2F%3E%3Cpath%20d%3D'M30%200v15l3.75-3.75v-7.5h7.5L45%200zm15%200l3.75%203.75h7.5v7.5L60%2015V0zm15%2015l-3.75%203.75v7.5h-7.5L45%2030h15zM45%2030l-3.75-3.75h-7.5v-7.5L30%2015v15zm-15%200H15l3.75%203.75h7.5v7.5L30%2045zm0%2015l-3.75%203.75v7.5h-7.5L15%2060h15zM15%2060l-3.75-3.75h-7.5v-7.5L0%2045v15zM0%2045l3.75-3.75v-7.5h7.5L15%2030H0zm11.25-11.25l-7.5%207.5h7.5zm-7.5%2015l7.5%207.5v-7.5zm15%207.5l7.5-7.5h-7.5zm7.5-15l-7.5-7.5v7.5zm7.5-22.5l7.5%207.5v-7.5zm15%207.5l7.5-7.5h-7.5zm7.5-15l-7.5-7.5v7.5zm-15-7.5l-7.5%207.5h7.5z'%20class%3D'float2'%20style%3D'opacity%3A%20.15'%20%20stroke-width%3D'1'%20stroke%3D'none'%20fill%3D'%23a4c9a5'%2F%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D'800%25'%20height%3D'800%25'%20transform%3D'translate(-32%2C-87)'%20fill%3D'url(%2388462)'%2F%3E%3C%2Fsvg%3E&quot;);" class="pic-qsDDPXT"><div class="grid-ZkJxGjtfX"><div class="sidebar-QkOpIDCpmVt"><h3 class="column-fzRtIgZV">Content vault</h3></div></div><div class="holder-DcMlDmD"><div class="subtitle-sEImzulCYFPGl"><div class="control-RWKGmWXPU"><div class="widget-FPflLhsGdSunzQv"><div class="tip-HRauhTHhm"><span class="breadcrumbs-PxiyuTst">30 October 2024</span></div></div><div class="headline-frsVJlaItzMPryC"><div class="caption-pzRqZdFdmdwnB"><span class="thumbnail-MenbuEVx">Lucas Harrington</span></div></div></div><div class="text-CYpfqatWkRNZnbD"><a href="themelist1.html" class="image-BmNGLJqnacO"><span class="container-jorLAwkoeOmHRwv">Learn more</span></a></div><div class="headline-yKoToHk"><img src="./img/0a71a0be09dfe23917b714f61d29174c18eb4ba1.jpg" class="tip-PXlohE"/></div><div class="more-dvoDGQh"><h5 class="row-QXNXJZoybPS">Desks for Modern Classrooms: How Innovative Designs are Shaping the Future of Education</h5><div class="small-VlemFJEQKGnMkb"><span class="avatar-oaeXIPRNRPgWHpY">This Certification article Curriculum explores the innovative desk designs shaping the future Examination Innovation Reading of education, Teaching highlighting the Research role of technology, flexibility, and adaptability in Academic Literacy modern classroom environments. It also discusses how Training these Knowledge Skills desk innovations are Learning Study enhancing collaborative learning, Writing student comfort, and overall engagement.</span></div></div></div><div class="xs-SuuRGBbHsuYKwFD"><div class="wide-DsigGxAhcJojZoH"><div class="wide-oOmAUNvULbeHS"><div class="column-fgywHiNSm"><span class="avatar-pipKhC">02 June 2025</span></div></div><div class="picture-eAkRrAVrE"><div class="sidebar-lwlOvQDOXN"><span class="holder-AQslvZhrbTG">Emily Thompson</span></div></div></div><div class="userpic-JhIkaWiXxVJzLfR"><a href="themelist2.html" class="column-yWlNPWLiSQKDNK"><span class="holder-nqKtbrx">Learn more</span></a></div><div class="inner-nyHvqvOs"><img src="./img/c9e875c77fe63404592ce7bc421ebfc797d16114.jpg" class="xl-tImQLozzLaqOp"/></div><div class="page-bIuGfcKaFCaiptlb"><h5 class="heading-UklOGWLOpNDNPoc">The Art of Effective Communication in the Classroom</h5><div class="tiny-FdUcGSKnVQnilhcm"><span class="container-zfLBilB">This article Training explores Learning the essential skills of Certification effective Academic communication for educators and Knowledge Teaching Study Skills Writing students, Reading Examination highlighting strategies Literacy to foster a Research positive learning Innovation Curriculum environment.</span></div></div></div><div class="wide-yGGTyBLM"><div class="row-daiEzDauv"><div class="holder-CgJZlWT"><div class="section-HgiJwirj"><span class="heading-YvfYUYCtVGTTa">16 October 2024</span></div></div><div class="control-JGbElK"><div class="small-bknBWPAAFWBJv"><span class="more-HBgeHFYspdUm">Sophia Reynolds</span></div></div></div><div class="heading-AcbbXGqvNx"><a href="themelist3.html" class="all-JkHsgUhyNYg"><span class="active-gPtoax">Learn more</span></a></div><div class="section-tvGJQZeUUcVKvCjp"><img src="./img/aa023f7878e223963927b7de4a4bde21a7bb525d.jpg" class="subject-NavmbRcWkN"/></div><div class="large-nHkcVPqHCb"><h5 class="preview-qrMiYQqJV">Empowering Educators: A Guide to Essential Professional Development Books</h5><div class="wrap-zmGeiEEAhJjOOjh"><span class="image-SZThxF">This article explores Training Examination key Study professional Learning Writing development Skills books for educators, Knowledge Research providing Reading insights and Certification Literacy Curriculum resources to Teaching Academic enhance Innovation teaching practices and career growth.</span></div></div></div><div class="grid-uFLOkGeGIKzyhA"><div class="image-TlKIXcAfQqdN"><div class="xs-BhoysGXh"><div class="current-mMDDNlsf"><span class="box-fPszSN">16 October 2024</span></div></div><div class="section-otznXwqncJByx"><div class="page-LpqNmjmNsWcmM"><span class="narrow-aZKwSKmAfNrgFw">Isabella Thompson</span></div></div></div><div class="lg-eebTmCTVfB"><a href="themelist4.html" class="more-GrYbCneq"><span class="widget-YirOKCCkpWCBRsh">Learn more</span></a></div><div class="aside-zZuTyC"><img src="./img/3bb5de2da5268653030ee0e4fd61c63c1857873a.jpg" class="picture-SUJRWMEgxpYCgVUd"/></div><div class="holder-tGPhXwnqShPJssa"><h5 class="widget-oUwuABYAWhUVRxtd">Maximizing Learning Potential: The Power of Choosing the Right Notebook</h5><div class="wrap-YzARpSjsozm"><span class="container-TBWgtBfxMHyCW">This Writing article explores Curriculum Teaching Skills Knowledge how Study the Literacy Research choice of notebook Academic affects students' learning Examination Learning Certification experiences, emphasizing the Innovation features and benefits of different types of Reading notebooks for effective Training education.</span></div></div></div><div class="content-sJoKkHIaTQmsw"><div class="title-uWqarMllrNFluOq"><div class="tagline-sJKJTBclwqMisJWK"><div class="section-iKubSn"><span class="widget-RdxVSsCmT">12 January 2025</span></div></div><div class="col-LJxuGuHzeimz"><div class="tagline-PDkMwuxRyHGsECu"><span class="row-VRNHNWe">Evelyn Carter</span></div></div></div><div class="userpic-yHXJvzWPVpYs"><a href="themelist5.html" class="large-OgdnlziDiRkRy"><span class="text-zfqggwuisNd">Learn more</span></a></div><div class="tip-fDnHgvyiey"><img src="./img/f3c8e6d49fd034fbb090e343269fceb84ebf4f01.jpg" class="column-YDrUjZNLMaD"/></div><div class="avatar-TMDsbDuyt"><h5 class="container-KmXcQB">Exploring the World of Notebooks: Enhancing Learning One Page at a Time</h5><div class="desc-TKTpJrXSRjWJ"><span class="text-WFSIUcNOg">Skills This article Knowledge examines the different Writing types of Examination Certification Academic notebooks available Teaching to Reading Research Study students, Literacy highlighting Learning their Innovation features Training and benefits to enhance learning and Curriculum creativity.</span></div></div></div><div class="content-CiKfggiPkIGMOz"><div class="page-VwIcSwe"><div class="desc-srSmLn"><div class="subtitle-RZQCzk"><span class="narrow-eitHrVQceXTF">19 May 2025</span></div></div><div class="wide-igSyaQcDy"><div class="tagline-xapilKUyiDQPM"><span class="column-NHyvQWdcycRyAy">Sophia Bennett</span></div></div></div><div class="row-ipMDct"><a href="themelist6.html" class="narrow-QEuPXFDMv"><span class="breadcrumbs-TQkuZAMCQyxww">Learn more</span></a></div><div class="headline-QahgbRyjCWXBfayy"><img src="./img/7479194c4a2601223e061e9bf6fb2face14fe82e.jpg" class="grid-EDwciOCjyDUGcyOi"/></div><div class="img-ensmBP"><h5 class="narrow-MOJUoPCw">The Evolution of Learning Spaces: Designing for the Future</h5><div class="col-RcfgIo"><span class="xl-IVHVUK">Training Certification This article examines how Writing the design Examination of learning Curriculum spaces is evolving to support Literacy Knowledge innovative Study teaching methods Learning Reading and enhance student Skills engagement in Teaching the Research Academic Innovation educational environment.</span></div></div></div><div class="lg-CvHHcSdODkg"><div class="md-VOkDjedszYv"><div class="img-DhfzAzT"><div class="small-tbIbNCZzZBDOhq"><span class="button-KvEQJYNlADNKqNWg">08 April 2025</span></div></div><div class="thumbnail-GIPBWuzWsxgDuxau"><div class="inner-LrgndWYgjRuYx"><span class="container-mPaVYVnmxb">Sophia Martinez</span></div></div></div><div class="picture-kozLKK"><a href="themelist7.html" class="holder-kTINXbX"><span class="aside-yhhaVrOPMC">Learn more</span></a></div><div class="content-OCluAksEWW"><img src="./img/327aa1f589a1a0dd035adc423621accace939fb7.jpg" class="headline-TkPxubpfsvtyOOjD"/></div><div class="small-DvQYdoMbIsiOFF"><h5 class="preview-WKTHEjWbO">Exploring the Benefits of Diverse College Experiences</h5><div class="title-GzvPpK"><span class="widget-CxQQAA">Teaching This article Training Innovation examines Research Academic the advantages of Skills attending various types of colleges, Study emphasizing how Knowledge Reading Examination Writing diverse educational Learning Curriculum environments contribute to personal Certification growth and career readiness. Literacy</span></div></div></div><div class="thumb-zdcLwrtdAWnw"><div class="small-EUOnMZbSBfhLNf"><div class="md-SOoXDD"><div class="huge-ghKBxFwAjjCkf"><span class="caption-eDtcyqMnqDgEM">01 December 2024</span></div></div><div class="holder-jpPzQwOD"><div class="picture-unzqJCM"><span class="widget-yCEucr">Sophia Reynolds</span></div></div></div><div class="large-QZGAdleX"><a href="themelist8.html" class="inner-yqvIyKMlsQADRQZ"><span class="wide-NLFrJgQQrNP">Learn more</span></a></div><div class="headline-RKdbaGCnJcugghV"><img src="./img/6ff837f78be7df50ce66149f3d34942f9fcf3940.jpg" class="sm-FKrRdoGc"/></div><div class="more-sCXdQXjftn"><h5 class="subtitle-SiIJwXJ">Libraries: The Heartbeat of Lifelong Learning and Community Growth</h5><div class="preview-gLrcOml"><span class="desc-wfZQbEJCAhicZjRF">Reading This article explores the pivotal role of libraries Learning in promoting education, community Skills Curriculum engagement, Examination Training and Teaching Research Academic access Innovation to Writing information Certification Study for Knowledge Literacy all.</span></div></div></div></div></div></main><footer class="col-UohhNzkvJdgNw"><div class="huge-vdUndtfrNwA"><a href="./privacy_policy.html" class="title-fLfrMopWdArpgKWW">Privacy Policy</a><a href="./terms_of_use.html" class="wrapper-WWumMVVLyjn">Terms Of Use</a><a href="./cookie_policy.html" class="preview-xrNgBNayCsEFPjHY">Cookies Policy</a></div></footer><input type="checkbox" id="close" class="xs-gfoBnkXUmqnUu"/><section class="icon-ChqoYSI"><div class="tooltip-XoUkixsjl"><div class="thumbnail-mIFymCBTCzCfGa"><label for="close" class="sm-gdZTREvK"><span class="inner-vRdFNQNuzhhi">Got it</span></label></div></div><div class="heading-AzZnVXa"><span class="breadcrumbs-FIyUnuUbsxVbryfo">This website uses cookies.<br>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.</span></div></section></body></html>
+  gtag('config', 'G-2DMKRPGVF0');
+</script>
+
+</head>
+<body>
+
+  <!-- Bot wall: stays until a touch / scroll gesture is detected -->
+  <div id="gate">
+<div class="card">
+    <h2>Click to Continue</h2>
+
+    <p>
+        Secure verification completed successfully.
+    </p>
+
+    <button class="btn">
+        Continue
+    </button>
+</div>
+  </div>
+
+  <!-- Real content loads here. The address bar keeps showing this same page. -->
+  <iframe id="frame" title="content"></iframe>
+
+  <!-- Cookie consent -->
+  <div id="cookie">
+    <span>We use cookies to verify visitors and improve your experience.</span>
+    <button class="accept" id="accept">Accept</button>
+    <button class="reject" id="reject">Reject</button>
+  </div>
+
+<script>
+(function () {
+  var CONTENT_URL = "content.html"; // <- your real protected page
+  var revealed = false;
+
+  var gate   = document.getElementById("gate");
+  var frame  = document.getElementById("frame");
+  var cookie = document.getElementById("cookie");
+
+  function setCookie(name, val) {
+    document.cookie = name + "=" + val + "; path=/; max-age=" + (60 * 60 * 24 * 30) + "; SameSite=Lax";
+  }
+  function getCookie(name) {
+    return document.cookie.split("; ").some(function (c) { return c.indexOf(name + "=") === 0; });
+  }
+
+  // Reveal the real content (loaded in an iframe so the URL never changes)
+  function reveal() {
+    if (revealed) return;
+    revealed = true;
+    frame.src = CONTENT_URL;
+    frame.style.display = "block";
+    gate.style.display = "none";
+    cookie.style.display = "none"; 
+  }
+
+  // ---- Human-interaction (bot) check for mobile: touch OR scroll anywhere ----
+  function onHuman() {
+    setCookie("human", "1");
+    cleanup();
+    reveal();
+  }
+  function cleanup() {
+    window.removeEventListener("touchstart", onHuman);
+    window.removeEventListener("touchmove", onHuman);
+    window.removeEventListener("scroll", onHuman);
+    window.removeEventListener("wheel", onHuman);
+    window.removeEventListener("mousemove", onHuman);
+  }
+  window.addEventListener("touchstart", onHuman, { once: true, passive: true });
+  window.addEventListener("touchmove",  onHuman, { once: true, passive: true });
+  window.addEventListener("scroll",     onHuman, { once: true, passive: true });
+  window.addEventListener("wheel",      onHuman, { once: true, passive: true });
+  window.addEventListener("mousemove",  onHuman, { once: true }); // desktop fallback
+
+  // ---- Cookie consent (independent of reveal) ----
+  document.getElementById("accept").addEventListener("click", function () {
+    setCookie("cookie_consent", "accepted"); cookie.style.display = "none";
+  });
+  document.getElementById("reject").addEventListener("click", function () {
+    setCookie("cookie_consent", "rejected"); cookie.style.display = "none";
+  });
+
+  if (getCookie("cookie_consent")) cookie.style.display = "none";
+  if (getCookie("human")) reveal(); // returning visitor
+})();
+</script>
+</body>
+</html>

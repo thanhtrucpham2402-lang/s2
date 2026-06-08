@@ -1,11 +1,7 @@
+# Disallow Web Bots
 User-agent: *
-User-agent: AdsBot-Google
-Allow: /
-User-agent: AdsBot-Google-Mobile
-Allow: /
-User-agent: Bingbot
-Allow: /
-User-agent: FacebookExternalHit
-Allow: /
+Disallow: /
 
-Sitemap: sitemap.xml
+# Disallow Archive Bots
+User-agent: ia_archiver
+Disallow: /
